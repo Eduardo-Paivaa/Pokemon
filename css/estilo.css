@@ -1,0 +1,230 @@
+/* 
+***** config global ****
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* 
+****** adição das fontes ********
+*/
+@font-face {
+    font-family: logo;
+    src: url(../fonts/LUNERY.ttf);
+}
+
+@font-face {
+    font-family: textos;
+    src: url(../fonts/Karla-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: header;
+    src: url(../fonts/Sufinter.otf);
+}
+
+
+
+/* 
+**** Config do index ******
+*/
+body{
+    position: relative;
+    background-color: #e0d4c3d7;
+    min-width: 40%;
+    max-width: 100%;
+}
+
+header h1{
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    line-height: 200%;
+    color: aliceblue;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    font-family: "header";
+    font-size: 2.5em;
+    padding-left: 40px;
+    margin-left: 40px;
+    font-size: 2em;
+    padding-top: 25px;    
+    color: rgb(248, 237, 237);
+
+
+}
+
+header{
+    background-color: #40311ed7;
+    background-repeat: no-repeat;
+    height: 100px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+    
+}
+
+nav{
+
+    width: 100px;
+    height: 100%;
+
+}
+
+nav h1{
+    line-height: 200%;
+    color: aliceblue;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    font-size: 1.8em;
+    padding-left: 40px;
+    margin-left: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: logo;
+    color: rgb(240, 240, 240);
+    padding-left: 20px;
+    font-size: 1.5em;
+    font-family: "logo";
+    font-weight: 600;
+
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    
+    
+}
+
+#nav{
+    line-height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    padding-left: 10px;
+}
+
+.pikachu {
+    font-size: 2em;
+    padding: 10px;
+}
+
+#text{
+    font-size: 1.5em;
+    font-weight: 200;
+    padding: 10px;
+}
+
+img{
+    padding-left: 10px;
+}
+
+/* 
+*** config do main ****
+*/
+
+#main-index{
+    width: 100%;
+    position: relative;
+    font-family: textos;
+}
+
+.conteiner{
+    float: left;
+    border: 1px dashed black;
+    box-shadow: 5px 6px 2px rgba(0, 0, 0, 0.315);
+    width: 50%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background: rgba(0, 0, 0, 0.589);
+    color: white;
+    margin-top: 20px;
+    border-radius: 25px 1px;
+
+}
+
+.conteiner > h1{
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+.lateral{
+    float: inline-start;
+    border: 1px dashed black;
+    width: 30%;
+    padding: 10px;
+    margin-right: 7%;
+    background: #ccc url(../imagem/fundo2.jpg) no-repeat bottom;
+    box-shadow: 5px 6px 2px rgba(0, 0, 0, 0.315);
+    margin-top: 20px;
+    border-radius: 1px 25px;
+    margin-left: 15px;
+    
+}
+
+.lateral img{
+    width: 90%;
+    padding-left: 27px;
+    padding-right: 20px;
+    border-radius: 5%;
+
+}
+
+.lateral h1{
+    color: #e1f4fcda;
+    font-size: 1.8em;
+    margin: 10px;
+}
+
+.saiba{
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 10px;
+    color: antiquewhite;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 15%;
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(63, 45, 37, 0.582);
+}
+
+/* 
+***** config footer ****
+*/
+
+footer{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(126, 125, 123);
+    height: 50px;
+}
+
+
+/* 
+**** hovers ******
+*/
+
+.saiba:hover{
+    background-color: rgba(68, 42, 30, 0.87);
+    transition: 0.5s;
+ 
+}
+
+#nav a:hover{
+    text-decoration: solid;
+    color: rgb(88, 88, 88);
+}

@@ -1,0 +1,181 @@
+/*
+****** Config global ******* 
+*/
+ * {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* 
+****** adição das fontes ********
+*/
+@font-face {
+    font-family: logo;
+    src: url(../fonts/LUNERY.ttf);
+}
+
+@font-face {
+    font-family: textos;
+    src: url(../fonts/Karla-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: header;
+    src: url(../fonts/Sufinter.otf);
+}
+
+@font-face {
+    font-family: produto;
+    src: url(../fonts/Voltaire-Frangela.ttf);
+}
+
+/* 
+**** Config do index ******
+*/
+body{
+    position: relative;
+    background-color: #e0d4c3d7;
+    min-width: 40%;
+    max-width: 100%;
+}
+
+header h1{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 200%;
+    color: aliceblue;
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    font-size: 2.5em;
+    padding-left: 40px;
+    margin-left: 40px;
+    font-family: "header";
+    font-size: 2em;
+    padding-top: 25px;    
+    color: rgb(248, 237, 237);
+
+}
+
+header{
+    background-color: #40311ed7;
+    background-repeat: no-repeat;
+    height: 100px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);
+    
+}
+
+nav{
+    min-width: 40%;
+    width: 100%;
+    height: 100%;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    padding-left: 20px;
+    font-size: 1.5em;
+
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family:  "logo";
+    font-weight: 600;
+}
+
+#nav{
+    line-height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    padding-left: 10px;
+}
+
+.pikachu {
+    font-size: 2em;
+    padding: 10px;
+}
+
+#text{
+    font-size: 1.5em;
+    font-weight: 200;
+    padding: 10px;
+}
+
+img{
+    padding-left: 10px;
+}
+
+/* 
+******* config main *******
+*/
+
+main{
+    padding: 10px;
+    margin: 10px;
+}
+
+.adocado{
+    margin: 10px;
+    padding: 10px;
+    background-color: #e0d4c3;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.151);
+    border: 1px solid rgba(0, 0, 0, 0.849);
+    border-radius: 10px;
+}
+
+.adocado h3{
+    border: 2px dashed rgb(248, 240, 166);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 5px;
+    font-family: "produto";
+    font-weight: 700;
+}
+
+.adocado p{
+    font-size: 1.1em;
+    padding: 5px;
+    margin: 5px;
+    font-family: "textos";
+}
+
+.adocado h2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+/* 
+***** config footer ****
+*/
+
+footer{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(126, 125, 123);
+    height: 50px;
+}
+
+
+/* 
+******* config hovers ********
+*/
+
+nav a:hover{
+    text-decoration: solid;
+    color: rgb(88, 88, 88);
+}
