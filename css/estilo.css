@@ -27,7 +27,10 @@
     src: url(../fonts/Sufinter.otf);
 }
 
-
+@font-face {
+    font-family: produtos;
+    src: url(../fonts/CHRISTMAS\ COMEBACK.otf);
+}
 
 /* 
 **** Config do index ******
@@ -181,9 +184,11 @@ img{
 }
 
 .lateral h1{
-    color: #e1f4fcda;
+    color: #947615be;
     font-size: 1.8em;
     margin: 10px;
+    font-family: "produtos";
+    font-weight: 500;
 }
 
 .saiba{
